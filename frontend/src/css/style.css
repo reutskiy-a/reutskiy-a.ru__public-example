@@ -1,0 +1,11 @@
+@import "../../node_modules/tailwindcss";
+@import "./variables.css";
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}

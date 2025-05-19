@@ -1,0 +1,61 @@
+:root {
+    --color-cream: #F8F1E9;
+
+    /*  */
+    --color-deep-dark-blue: #0D1B2A;
+    --color-light-gray-1: #F5F5F5;
+    --color-accent-gold: #FFB300;
+
+    --color-dark-blue-gray: #37474F;
+    --color-light-gray-2: #CFD8DC;
+    --color-accent-corol: #FF8A65;
+
+    --color-dark-theme: #1E272E;
+    --color-light: #ECEFF1;
+    --color-accent-light-coral: #FFAB91;
+
+    /* shadow */
+    --shadow-3xl: 0px 0px 15px 3px rgba(30, 38, 64, 0.25);
+
+    /* tailwind colors */
+    --emerald-700: oklch(0.508 0.118 165.612);
+    --emerald-800: oklch(43.2% 0.095 166.913);
+    --emerald-900: oklch(37.8% 0.077 168.94);
+    --blue-700: oklch(0.488 0.243 264.376);
+    --blue-800: oklch(42.4% 0.199 265.638);
+    --zink-700: oklch(37% 0.013 285.805);
+    --zink-500: oklch(55.2% 0.016 285.938);
+    --zink-400: oklch(70.5% 0.015 286.067);
+    --zink-300: oklch(87.1% 0.006 286.286);
+    --violet-700: oklch(49.1% 0.27 292.581);
+
+
+    --color-test: #1d4ed8;
+
+
+    /* main: app styles */
+    --bg-color: #fffbf4;
+    --frame-color: var(--color-light-gray-1);
+
+
+    --text-main-color: var(--color-deep-dark-blue);
+    --text-accent-color: var(--blue-800);
+    --text-secondary-color: var(--zink-700);
+    --line-color: #4994ff;
+    --line-color-accent: #4994ff;
+    --danger-color: oklch(63.7% 0.237 25.331);
+
+    --input-bg-color: #e1ecfb;
+    --input-text-color: --text-main-color;
+
+    --input-bg-color-form: #ffffff;
+    --input-text-color-form: --text-main-color;
+
+    --comment-list-bg-color: #ffffff;
+    --comment-list-text-color: var(--color-dark-blue-gray);
+
+    --comment-bg-color: var(--color-dark-blue-gray);
+    --comment-text-color: var(--color-light-gray-1);
+
+
+}
