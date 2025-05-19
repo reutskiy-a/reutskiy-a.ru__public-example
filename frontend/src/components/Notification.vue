@@ -1,7 +1,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 
-// Определяем пропсы с помощью defineProps
 const { message, type = 'info', duration = 3000, showCloseButton = true } = defineProps({
   message: {
     type: String,
@@ -21,19 +20,15 @@ const { message, type = 'info', duration = 3000, showCloseButton = true } = defi
   },
 });
 
-// Состояние видимости
 const isVisible = ref(true);
 
-// Эмит для уведомления родителя о закрытии
 const emit = defineEmits(['closed']);
 
-// Функция закрытия уведомления
 const close = () => {
   isVisible.value = false;
   emit('closed');
 };
 
-// Автоматическое закрытие через заданное время
 onMounted(() => {
   if (props.duration > 0) {
     setTimeout(() => {
@@ -42,7 +37,6 @@ onMounted(() => {
   }
 });
 
-// Очистка таймера при размонтировании (если компонент уничтожен раньше)
 onUnmounted(() => {
   clearTimeout();
 });
